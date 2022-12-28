@@ -45,6 +45,8 @@
 .nav-list li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-list li a:hover {
@@ -127,6 +129,7 @@ font-size: 18px;
     font-size: 16px;
     color :black;
     cursor : pointer;
+    font-family: 'Ubuntu', sans-serif   ;
 }
 
 .btn-sm {
@@ -171,14 +174,38 @@ font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .form {
     max-width: 344px;
-    margin :auto;
+    margin : 25px auto;
 }
 
-.form input {
+.form-input {
     width : 100%;
     margin : 30px 0;
     font-size : 19px;
     padding : 6px;
     border : 2px solid grey;
     border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-dark{
+    color : black;
+    border : 2px solid grey;
+}
+
+.text-footer {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+    padding : 30px 0;
+}
+
+@media only screen and (max-width: 1140px){
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
 }
